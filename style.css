@@ -1,0 +1,166 @@
+#wrap{ 
+    margin:10px; 
+    transition: margin-left .5s;
+    background-attachment: fixed;
+}
+.left{
+   height:800px;
+   background: #dce6ec;
+   float:left;
+}
+.right{
+   height:800px;
+   background:#efefef;
+   
+}
+footer{
+   height:50px;
+   background: #3cdb91;
+   text-align: center;
+   padding:10px;
+   font-weight: bold;
+}
+
+.img{
+   width:300px;
+   height:300px;
+   border-radius: 800px;
+   margin:10px 10px;
+}
+body {
+   font-family: "Lato", sans-serif;
+   transition: background-color .5s;
+ }
+ 
+h1{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+   color:blue;
+   text-shadow: 4px 4px 5px crimson;
+}
+ul{
+   list-style-type: none;
+   font-size:30px;
+   margin:0;
+   padding:0;
+
+}
+li a{
+   display:block;
+   text-decoration:none;
+   padding:20px 30px;
+
+}
+li:hover{
+   background-color:#ebebeb;
+   color:lightblue;
+}
+#t1{
+   width:100px;
+   height:200px;
+   background:yellow;
+   transition:width 5s;
+}
+div .success{
+   margin:50px;
+   border:1px solid #ccc;
+   float:left;
+   width:auto;
+}
+div.success:hover{
+   border:1px solid crimson;
+}
+div.success img{
+   width:200px;
+   height:100px;
+}
+
+div.hello{
+   padding:15px;
+   text-align: center;
+}
+.sidenav {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   background-color: #111;
+   overflow-x: hidden;
+   transition: 0.5s;
+   padding-top: 60px;
+ }
+ .sidenav .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+   margin-left: 50px;
+ }
+ .sidenav {
+   font-size: 25px;
+   color: #818181;
+   display: block;
+   transition: 0.3s;
+ }
+ @media screen and (max-height: 450px) {
+   .sidenav {padding-top: 15px;}
+   .sidenav {font-size: 18px;}
+ }
+ #overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 200%;
+   height: 145%;
+   background: #000;
+   opacity: 0.8;
+   display: none;
+ }
+ #dialog {
+   position: absolute;
+   top: 16%;
+   left: 35%;
+   width: 30%;
+   border: 4px solid #ccc;
+   background: #fff;
+   display: none;
+   }
+   #dialog h2 {
+   margin: 0;
+   padding: 8px;
+   background: #ddd;
+   font-size: 17px;
+   }
+   #dialog h2 span {
+   display: block;
+   float: right;
+   padding: 0 5px;
+   color: #c22;
+   cursor: pointer;
+   }
+   #dialog form {
+   padding: 20px;
+   }
+   input[type=text] {
+   padding: 6px;
+   width: 90%;
+   }
+   textarea {
+       padding: 6px;
+       font-family: Arial, Helvetica, sans-serif;
+       width: 90%;
+       height: 140px;
+       }
+   input[type=submit] {
+       padding: 8px 18px;
+       margin-top: 10px;
+       }
+   #home h2{
+       color:crimson;
+       text-align: center;
+       text-shadow: 4px 4px 5px skyblue;
+   }
+       
+  
